@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <script type="text/javascript" src="web.js"></script>
+        <title>The log in page</title>
+    </head>
+<body>
+
+    <div id="header">
+        <h1>Our Story</h1>
+            <div id="navbar">
+                <ul>
+                    <li class="top"><a href="page2_story.html">Story</li>
+                    <li class="top"><a href="PersonalPage.html">My Page</li>
+                    <li class="top"><a href="RegisterPage.html">Register</a></li>
+                    <li class="top"><a href="articalPage.html">Find</a></li>
+                </ul>
+            </div>
+    </div>
+
+<h2 style="font-famaly: Verdana";>WELCOME TO YOUR WEBSITE</h2>
+
+<div id="register">
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="emailaddress">
+
+    <label for="password">Password</label>
+    <input type="password" id="password1" name="password">
+
+    <label for="password">Repeat Password</label>
+    <input type="password" id="password2" name="password">
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="other">Other</option>
+    </select>
+  
+    <div id="loginbutton1">  
+        <input type="button" value="Submit" onclick="myFunction()">
+    </div>
+    <div id="loginbutton2">
+        <input id="loginbutton" type="button" value="Reset">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
