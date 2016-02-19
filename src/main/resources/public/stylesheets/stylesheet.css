@@ -213,6 +213,16 @@ th {
 .secondColumn {
 	width: 300px;
 }
+.heading a{
+	text-decoration: underline;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: left;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #b33c00;
+}
 
 
 /*###########above is the css for the story page############*/
@@ -326,32 +336,27 @@ th {
 
 /*########################bellow is the artical page ######################*/
 
-div.background {
+div.background1 {
   background: url(http://free-images.gatag.net/images/l201207270000.jpg) no-repeat;
   border: 2px solid black;
   background-size: cover;
 }
 
 div.transbox {
+	height: 400px;
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
   opacity: 0.8;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+ 
 }
 
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-
-
-.container .container-content
+.container-content
 {
 	height:100%;
 	width:100%;
-	margin-top: -50px;
+	margin-top: -100px;
+
 }
 
 .header
