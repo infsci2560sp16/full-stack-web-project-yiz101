@@ -193,24 +193,24 @@ th {
 	margin-left: 120px;
 }
 
-#list2{
+.list2{
 	width: 350px;
 }
-#list2 tr td{
+.list2 tr td{
 	height: 100px;
 
 }
-#list2 th{
+.list2 th{
 	padding: 10px;
 }
-#list2 tr td img{
+.list2 tr td img{
 	height: 90px;
 	width: 90px;
 }
-#firstColumn {
+.firstColumn {
 	width: 90px;
 }
-#secondColumn {
+.secondColumn {
 	width: 300px;
 }
 
