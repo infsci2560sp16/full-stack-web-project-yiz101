@@ -73,7 +73,7 @@
                     <a href="#" class="link-1"> Read more</a>
 				</div>
 				</td>
-				<td><img src="http://www.nuanxin.cc/uploads/allimg/c160107/145214GE414Z-15923.jpg" alt=""/></td>
+				<td><img src="http://4493bz.1985t.com/uploads/allimg/150723/1-150H3144210.jpg" alt=""/></td>
 			</tr>
 			
 		</table>
