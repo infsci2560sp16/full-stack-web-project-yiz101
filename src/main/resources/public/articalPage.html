@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>
+		<script type="text/javascript" src="js/get1.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 		<title>The article page</title>
 	</head>
 	<body>
@@ -12,8 +14,9 @@
 			<div id="navbar">
 				<ul>
 					<li class="top"><a href="page2_story.html">Story</a></li>
-					<li class="top"><a href="PersonalPage.html">My Page</a></li>
+					<li class="top"><a href="/Personal">My Page</a></li>
 					<li class="top"><a href="RegisterPage.html">Register</a></li>
+					<li class="top"><a href="SignIn.html">SignIn</a></li>
 					<li class="top"><a href="articalPage.html">Find</a></li>
 				</ul>
 			</div>
@@ -30,8 +33,8 @@
   						<div class="row">
         					<div class="center">
          						<h2>JUST ONE CLICK</h2>
-          						<input type="text" name="article" placeholder="Long-distance Relationship" class="c-text" size="50" title="article">
-          						<input type="submit" value="Let's Go" class="c-submit" onClick="bt_submit_onclick()">
+          						<input type="text" id="story" name="article" placeholder="Long-distance Relationship" class="c-text" size="50" title="article">
+          						<input type="submit" value="Let's Go" class="c-submit" onClick="search()">
         					</div>
       					</div>
     			

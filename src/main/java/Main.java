@@ -22,8 +22,15 @@ public class Main {
 
   public static void main(String[] args) {
 
-    port(Integer.valueOf(System.getenv("PORT")));
+    //port(Integer.valueOf(System.getenv("PORT")));
     staticFileLocation("/public");
+    
+    weekPrompt r = new weekPrompt();
+    get1 g= new get1();
+    SignIn S=new SignIn();
+    search s = new search();
+    
+    
       
 //      get("/hello", (req, res) -> {
 //          RelativisticModel.select();

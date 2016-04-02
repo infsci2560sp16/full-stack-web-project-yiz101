@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>
-        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+      
         <script type="text/javascript" src="js/get1.js"></script>
-        <title>The log in page</title>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <title>The sign in page</title>
     </head>
 <body>
 
@@ -23,33 +24,20 @@
             </div>
     </div>
 
-<h2 style="font-famaly:Verdana;">WELCOME TO YOUR WEBSITE</h2>
+<h2 style="font-famaly:Verdana;">WELCOME TO YOUR WEBPAGE</h2>
 
 <div id="register">
   <form action="action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname">
-
     <label for="email">Email</label>
     <input type="text" id="email" name="emailaddress">
 
     <label>Password</label>
-    <input type="password" id="password1" name="password">
+    <input type="password" id="password1" name="password"> 
 
-    <label >Repeat Password</label>
-    <input type="password" id="password2" name="password">
-
-
-  
     <div id="loginbutton1">  
-        <input type="button" value="Submit" onclick="signup()">
+        <input type="button" value="Submit" onclick="signin()">
     </div>
-    <div id="loginbutton2">
-        <input id="loginbutton" type="button" value="Reset">
-    </div>
+    
   </form>
 </div>
 

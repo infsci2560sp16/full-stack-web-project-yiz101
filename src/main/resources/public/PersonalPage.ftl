@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>
-		<title>Personal Page</title>
+		<title>${Personal Page}</title>
 	</head>
 	<body>
 		<div id="header">
@@ -12,9 +12,9 @@
 			<div id="navbar">
 				<ul>
 					<li class="top"><a href="page2_story.html">Story</a></li>
-					<li class="top"><a href="/Personal">My Page</a></li>
+					<li class="top"><a href="PersonalPage.html">My Page</a></li>
 					<li class="top"><a href="RegisterPage.html">Register</a></li>
-					<li class="top"><a href="SignIn.html">SignIn</a></li>
+					<li class="top"><a href="/Personal">SignIn</a></li>
 					<li class="top"><a href="articalPage.html">Find</a></li>
 				</ul>
 			</div>
@@ -26,8 +26,27 @@
 				<td>
 					<div class="grid_8">
             			<div class="top-1 right-1">
-                			<h3 id="h3-border">About<strong> Amber</strong>Today is:$"{dayOfWeek}"</h3>
-                			
+                			<h3 id="h3-border">About<strong> Amber</strong></h3>
+                			<div>${dayOfWeek}</div>
+                			<#if dayOfWeek == "Monday">
+        						<div class="notification">Monday Task: Audit Network for New Devices</div>
+
+							<#elseif dayOfWeek == "Tuesday">
+        						<div class="notification">Tuesday Task: Create Report for Department Managers</div>
+
+							<#elseif dayOfWeek == "Wednesday">
+        						<div class="notification">Wednesday Task: Test Network Security</div>
+
+							<#elseif dayOfWeek == "Thursday">
+        						<div class="notification">Thursday Task: Review Server Logs</div>
+
+							<#elseif dayOfWeek == "Friday">
+        						<div class="notification">Friday Task: Buy Lunch for Support Technicians</div>
+
+							<#else>
+        						<div class="notification">Why are you working on the weekend?!</div>
+
+							</#if>
                     	<div id="box-1">
                     		<img src="http://www.fzlqqqm.com/uploads/allimg/20150214/201502141541021096.jpg" alt="">
                     	</div>

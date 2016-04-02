@@ -331,6 +331,7 @@ th {
 	margin-top: -130px;
 }
 
+
 /*########################above is the personal page ######################*/
 
 
@@ -382,4 +383,11 @@ div.transbox {
     box-sizing: border-box;
 
 }
+
+
+#week{
+ margin-left:300px;
+ margin-top:-50px;
+ color:#e67300;
+ }
 
