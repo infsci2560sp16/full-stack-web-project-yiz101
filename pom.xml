@@ -25,8 +25,42 @@
       <artifactId>heroku-jdbc</artifactId>
       <version>0.1.1</version>
     </dependency>
+
+
+        <dependency>
+    <groupId>com.sparkjava</groupId>
+    <artifactId>spark-core</artifactId>
+    <version>2.3</version>
+</dependency>
+
+
+<dependency>
+  <groupId>com.sparkjava</groupId>
+  <artifactId>spark-template-freemarker</artifactId>
+  <version>2.3</version>
+</dependency>
+
+
+<dependency>
+  <groupId>com.google.code.gson</groupId>
+  <artifactId>gson</artifactId>
+  <version>2.2.2</version>
+</dependency>
+
+
+<dependency>
+  <groupId>org.json</groupId>
+  <artifactId>json</artifactId>
+  <version>20160212</version>
+</dependency>
   </dependencies>
+  
+
+
+
   <build>
+
+
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -53,25 +87,6 @@
           </execution>
         </executions>
 
-        <dependency>
-    <groupId>com.sparkjava</groupId>
-    <artifactId>spark-core</artifactId>
-    <version>2.3</version>
-</dependency>
-
-
-<dependency>
-  <groupId>com.sparkjava</groupId>
-  <artifactId>spark-template-freemarker</artifactId>
-  <version>2.3</version>
-</dependency>
-
-
-<dependency>
-  <groupId>com.google.code.gson</groupId>
-  <artifactId>gson</artifactId>
-  <version>2.2.2</version>
-</dependency>
 
 
 
