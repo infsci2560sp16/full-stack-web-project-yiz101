@@ -66,8 +66,8 @@
 				<div class="top-1 right-1">
                     <h2 id="h2-border">Love <span>story:</span></h2>
                     <p class="p1 top-2">Amber&John. Our story start for only a few month. It is hard to believe we will face such long-distance relationship for almost two years. But it is good for us to meet such a good website to share our story and photo, even share some music and movie list. </p>
-                    <p class="p-border">We use almost all kinds of communication media to share every moment in our daily life. Such as Wechat and <a class="link" href="http://weibo.com/AmberLovesDiandian/home?wvr=5&lf=reg" target="_blank" rel="nofollow">Weibo</a>. </p>
-                    <p class="p-border clr-1 top-3">Besides, we have a common <a href="https://outlook.live.com/owa/#path=/mail">email box</a>. These methods can help us have a better understanding of each other.</p>
+                    <p class="p-border">We use almost all kinds of communication media to share every moment in our daily life. Such as Wechat and <a class="link" href="http://weibo.com/u/2525104783/home?wvr=5&lf=reg" target="_blank" rel="nofollow">Weibo</a>. </p>
+                    <p class="p-border clr-1 top-3">Besides, we have a common <a href="http://f.hiphotos.baidu.com/exp/w=480/sign=991c6fb295dda144da096dba82b6d009/b58f8c5494eef01fafe2d364e2fe9925bd317d99.jpg">email box</a>. These methods can help us have a better understanding of each other.</p>
                     <a href="#" class="link-1"> Read more</a>
 				</div>
 				</td>
