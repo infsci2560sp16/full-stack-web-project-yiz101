@@ -1,0 +1,93 @@
+/* Destination Page */
+
+.destination-header {
+    text-align: center;
+}
+
+.destination-header .container {
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+#explore-the-world .destination-item {
+    margin: 0 0 15px;
+    right: 0
+}
+
+#explore-the-world .destination-item .destination-link {
+    display: block;
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto
+}
+
+#explore-the-world .destination-item .destination-link .caption {
+    background: rgba(24, 188, 156, .9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s
+}
+
+#explore-the-world .destination-item .destination-link .caption:hover {
+    opacity: 1
+}
+
+#explore-the-world .destination-item .destination-link .caption .caption-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
+
+#explore-the-world .destination-item .destination-link .caption .caption-content i {
+    margin-top: -12px
+}
+
+#explore-the-world .destination-item .destination-link .caption .caption-content h3,
+#explore-the-world .destination-item .destination-link .caption .caption-content h4 {
+    margin: 0
+}
+
+#explore-the-world * {
+    z-index: 2
+}
+
+@media (min-width:767px) {
+    #explore-the-world .destination-item {
+        margin: 0 0 30px
+    }
+}
+
+#meet-stories .stories-item .stories-link .caption {
+    background: rgba(24, 188, 156, .7);
+    position: absolute;
+    width: 91%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s
+}
+
+#meet-stories .stories-item .stories-link .caption:hover {
+    opacity: 1
+}
+
+#meet-stories .stories-item .stories-link .caption .caption-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 18px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
